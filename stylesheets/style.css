@@ -39,11 +39,10 @@ ul{
 }
 
 h1{
-  font-size: 60px;
   font-family: "Open Sans";
   color: #FFFFFF;
   font-weight: normal;
-  line-height: 80px;
+  line-height: 110%;
   margin-bottom: 45px;
 }
 
@@ -148,13 +147,14 @@ p{
   text-align: center;
 }
 
-.feature-desc img{
+.feature-img{
   background-color: #71bb97;
-  padding: 50px;
+  padding: 70px 50px;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
   display:block;
-  margin: 67px auto;
   text-align: center;
+  margin: 67px auto;
 }
 
 #newsletter{
@@ -222,9 +222,6 @@ input[type="text"]{
 .feature-desc{
   width: 33%;
   display: inline-block;
-}
-.feature-desc img {
-
 }
 
 

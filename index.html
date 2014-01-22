@@ -35,6 +35,9 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,400|Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+
 </head>
 <body>
 <!-- Primary Page Layout
@@ -57,8 +60,11 @@
  <!--This is the hero section -->
  <div id="hero">
    <div class="container">
-     <div class="sixteen columns">
+     <div class="sixteen columns" id="heading-words">
        <h1>With <span>Jott.ly</span> sharing content has never been so easy.</h1>
+        <script>
+          jQuery("h1").fitText(1.2, { minFontSize: '32px', maxFontSize: '60px' });
+        </script>
        <button name="start sharing">Start Sharing</button>
      </div>
    </div>
@@ -95,19 +101,25 @@
      </div>
      <!--Feature 1 description-->
      <div class="feature-desc four columns offset-by-one">
-       <img src="images/Left-feature-icon.png" alt="Ideas Feature">
-       <h3>Share Your Ideas</h3>
-       <p>Content is stored within a cloud based platform</p>
+        <div class="feature-img">
+          <img src="images/Left-feature-icon.png" alt="Ideas Feature">
+        </div>
+          <h3>Share Your Ideas</h3>
+          <p>Content is stored within a cloud based platform</p>
      </div>
      <!--Feature 2 description-->
      <div class="feature-desc four columns offset-by-one">
-       <img class="scale-with-grid" src="images/Middle-feature-icon.png" alt="Build Feature">
+      <div class="feature-img">
+       <img src="images/Middle-feature-icon.png" alt="Build Feature">
+      </div>
        <h3>Build Web Pages</h3>
        <p>Create wiki-style pages of information</p>
      </div>
      <!--Feature 3 description-->
      <div class="feature-desc four columns offset-by-one">
-       <img class="scale-with-grid" src="images/Right-feature-icon.png" alt="Text editor feature">
+      <div class="feature-img">
+        <img src="images/Right-feature-icon.png" alt="Text editor feature">
+      </div>
        <h3>Edit Content Easily</h3>
        <p>User friendly text editor makes updating simple</p>
      </div>
