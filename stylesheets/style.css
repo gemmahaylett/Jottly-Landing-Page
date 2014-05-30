@@ -189,7 +189,7 @@ a.hero-btn{
 
 /* Buttons */
 
-#newsletter button{
+#newsletter button {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -208,6 +208,11 @@ a.hero-btn{
   background-color: #72bb99;
 }
 
+#newsletter button:focus {
+  outline: none;
+}
+
+
 /* Forms */
 
 input,
@@ -223,6 +228,11 @@ input[type="text"]{
   border:1px solid #fff;
   margin-right:5px;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*  3.0 Section Specific Styles
+/*-----------------------------------------------------------------------------------*/
+
 
 #prod-highlight, #newsletter{
   background-color: #d54b29;
@@ -277,8 +287,3 @@ input[type="text"]{
   background-size: cover;
   background-position: center center;
 }
-
-
-
-
-
