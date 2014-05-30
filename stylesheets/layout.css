@@ -35,10 +35,6 @@
 			font-size:21px;
 			margin-bottom: 0px;
 		}
-
-		.feature-img{
-  		padding: 45px 40px
-		}
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -67,7 +63,7 @@
 
 		#hero{
 			padding-top: 100px;
-			padding-bottom: 60px; 
+			padding-bottom: 125px; 
 		}
 
 		#prod-highlight h2{
@@ -115,15 +111,14 @@
 		#prod-desc-text p{
   		width:100%;
 		}
-
-		#feature-desc img{
-			margin:45px auto;
-		}
-
-		.feature-img{
-  		padding: 60px 65px;
-  		width: 80px;
-		}
+      
+      h1{
+         margin-bottom: 50px;
+      }
+      
+      a.hero-btn{
+         padding: 20px 60px;
+      }
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -131,6 +126,15 @@
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+      
+      h1{
+         margin-bottom: 50px;
+      }
+      
+      a.hero-btn{
+         padding: 20px 60px;
+      }
+      
 		#header{
 			font-size: 15px;
 			padding-top: 35px;
@@ -143,17 +147,6 @@
 			margin-right: auto;
 			width: 120px;
 			height: auto;
-		}
-
-		#hero button{
-			width:229px;
-			height:66px;
-			font-size: 13px;
-		}
-
-		#hero{
-			padding-top: 100px;
-			padding-bottom: 60px; 
 		}
 
 		#prod-highlight h2{
@@ -196,21 +189,13 @@
 		}
 
 		#newsletter button{
-			width:275px;
+			width:245px;
 			padding:16px;
 			font-size: 14px;
 		}
 
 		#prod-desc-text p{
   		width:100%;
-		}
-
-		.feature-img{
-  		padding: 60px 60px
-		}
-
-		.feature-img img{
-  		width: 80%;
 		}
 		
 
